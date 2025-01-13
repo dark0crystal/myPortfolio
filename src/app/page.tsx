@@ -2,7 +2,7 @@ import { FaTwitter, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa"; /
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center h-screen">
+    <div className="flex flex-col justify-center items-center h-screen gap-16 md:gap-6" >
       {/* Background */}
       <div className="absolute inset-0 -z-10 h-full w-full px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
 
@@ -10,7 +10,7 @@ export default function Home() {
       <div className="flex justify-center items-center w-screen gap-6 h-fit">
         {/* X (Twitter) */}
         <a
-          href="https://twitter.com"
+          href="https://x.com/_5lo_9"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white text-3xl hover:text-blue-400 transition"
@@ -20,7 +20,7 @@ export default function Home() {
         </a>
         {/* Instagram */}
         <a
-          href="https://instagram.com"
+          href="https://instagram.com/_5lo_9"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white text-3xl hover:text-pink-400 transition"
@@ -30,7 +30,7 @@ export default function Home() {
         </a>
         {/* LinkedIn */}
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/al-mardas-al-busaidi-15b2a522a/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white text-3xl hover:text-blue-500 transition"
@@ -40,7 +40,7 @@ export default function Home() {
         </a>
         {/* GitHub */}
         <a
-          href="https://github.com"
+          href="https://github.com/dark0crystal"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white text-3xl hover:text-gray-400 transition"
@@ -51,8 +51,8 @@ export default function Home() {
       </div>
 
       {/* Coming Soon Text */}
-      <div>
-        <h1 className="text-[20vh] font-bold text-white">Coming Soon</h1>
+      <div >
+        <h1 className="text-[12vw] font-bold text-white">Coming Soon</h1>
       </div>
     </div>
   );
