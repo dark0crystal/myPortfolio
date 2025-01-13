@@ -52,7 +52,9 @@ export default function Home() {
 
       {/* Coming Soon Text */}
       <div >
-        <h1 className="text-[12vw] font-bold text-white">Coming Soon</h1>
+      <h1 className="text-[12vw] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-600 to-red-500">
+          Coming Soon
+      </h1>
       </div>
     </div>
   );
